@@ -1,11 +1,12 @@
-package fr.xebia.xke.junit5;
+package fr.xebia.xke.junit5.interfacedefaultmethods;
+
+import fr.xebia.xke.junit5.factory.Factory;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.jupiter.api.Test;
-
-public interface ComparableContract<T extends Comparable<T>> extends Testable<T> {
+public interface FactoryComparableTest<T extends Comparable<T>> extends Factory<T> {
 
   T createSmallerValue();
 

@@ -1,5 +1,6 @@
 package fr.xebia.xke.junit5.extension;
 
+import fr.xebia.xke.junit5.extension.impl.TimingExtension;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 

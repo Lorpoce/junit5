@@ -127,7 +127,10 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <configuration>
               <includes>
-                <include>fr.xebia.xke.junit5.extension.*,
+                <include>
+                  fr.xebia.xke.junit5.extension.*
+                </include>
+                <include>
                   fr.xebia.xke.junit5.extension.rule.*
                 </include>
               </includes>

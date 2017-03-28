@@ -1,12 +1,13 @@
-package fr.xebia.xke.junit5.extension.rule;
+package fr.xebia.xke.junit5.rule;
 
-import static org.junit.Assert.assertTrue;
-
-import java.io.File;
 import org.junit.Rule;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.migrationsupport.rules.EnableRuleMigrationSupport;
 import org.junit.rules.TemporaryFolder;
+
+import java.io.File;
+
+import static org.junit.Assert.assertTrue;
 
 @EnableRuleMigrationSupport
 public class TemporaryFolderTest {

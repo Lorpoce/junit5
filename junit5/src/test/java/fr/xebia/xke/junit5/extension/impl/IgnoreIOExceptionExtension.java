@@ -1,4 +1,4 @@
-package fr.xebia.xke.junit5.extension;
+package fr.xebia.xke.junit5.extension.impl;
 
 import java.io.IOException;
 import org.junit.jupiter.api.extension.TestExecutionExceptionHandler;

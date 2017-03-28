@@ -1,12 +1,11 @@
-package fr.xebia.xke.junit5;
+package fr.xebia.xke.junit5.interfacedefaultmethods;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
-
+import fr.xebia.xke.junit5.factory.Factory;
 import org.junit.jupiter.api.Test;
 
-public interface EqualsContract<T> extends Testable<T> {
+import static org.junit.jupiter.api.Assertions.*;
+
+public interface FactoryEqualsTest<T> extends Factory<T> {
 
   T createNotEqualValue();
 

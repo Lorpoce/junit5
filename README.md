@@ -1,4 +1,4 @@
-# Junit 4
+# JUnit 4
 
 - A reçu trop de changement depuis sa 1ere release
 - Modularité 
@@ -25,7 +25,7 @@ all in junit.jar : IDE/Build tools(plugins)/extensions/Frameworks
 - C'est bien pour des cas simple 
 - on ne peut pas avoir le même role sur la class et la méthode en meme temps
 
-# Junit 5
+# JUnit 5
 
 Prototype 2 Dec 2015
 5.0.0-ALPHA 1 Fev 2016
@@ -37,7 +37,7 @@ Prototype 2 Dec 2015
 - Retro compatible 3.8 plus
 - peut etre executer avec junit 4
 
-## modules
+## Modules
 
 TODO
 

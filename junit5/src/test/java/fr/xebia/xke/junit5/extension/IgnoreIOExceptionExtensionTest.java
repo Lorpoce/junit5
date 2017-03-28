@@ -1,8 +1,10 @@
 package fr.xebia.xke.junit5.extension;
 
-import java.io.IOException;
+import fr.xebia.xke.junit5.extension.impl.IgnoreIOExceptionExtension;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+
+import java.io.IOException;
 
 @ExtendWith(IgnoreIOExceptionExtension.class)
 public class IgnoreIOExceptionExtensionTest {

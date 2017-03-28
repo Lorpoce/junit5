@@ -1,12 +1,10 @@
 package fr.xebia.xke.rule;
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.CoreMatchers.not;
-
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ErrorCollector;
+
+import static org.hamcrest.CoreMatchers.*;
 
 /**
  * The ErrorCollector Rule allows execution of a test to continue after the
@@ -20,7 +18,7 @@ public class ErrorCollectorRuleTest {
 
   @Test
   public void example() {
-    collector.addError(new Throwable("First Erdror!"));
+    collector.addError(new Throwable("First Error!"));
     collector.addError(new Throwable("Second Error!"));
 
     collector.checkThat(5, is(8)); // First Error
