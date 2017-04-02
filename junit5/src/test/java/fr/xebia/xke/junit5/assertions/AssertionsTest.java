@@ -6,7 +6,7 @@ import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofMinutes;
 import static org.junit.jupiter.api.Assertions.*;
 
-class AssertionsDemoTests {
+class AssertionsTest {
 
   @Test
   void standardAssertions() {

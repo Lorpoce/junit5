@@ -18,8 +18,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <logback.version>1.1.7</logback.version>
     <slf4j-api.version>1.7.21</slf4j-api.version>
-    <junit-platform.version>1.0.0-M3</junit-platform.version>
-    <junit-jupiter.version>5.0.0-M3</junit-jupiter.version>
+    <junit-platform.version>1.0.0-M4</junit-platform.version>
+    <junit-platform-surefire-provider.version>1.0.0-M3</junit-platform-surefire-provider.version>
+    <junit-jupiter.version>5.0.0-M4</junit-jupiter.version>
     <junit.version>4.12</junit.version>
   </properties>
 

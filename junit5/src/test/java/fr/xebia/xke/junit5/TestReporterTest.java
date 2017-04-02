@@ -1,10 +1,11 @@
 package fr.xebia.xke.junit5;
 
-import java.util.HashMap;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestReporter;
 
-class TestReporterDemoTests {
+import java.util.HashMap;
+
+class TestReporterTest {
 
   @Test
   void reportSingleValue(TestReporter testReporter) {

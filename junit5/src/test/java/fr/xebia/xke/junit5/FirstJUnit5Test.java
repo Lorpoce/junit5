@@ -1,15 +1,10 @@
 package fr.xebia.xke.junit5;
 
+import org.junit.jupiter.api.*;
+
 import static org.junit.jupiter.api.Assertions.fail;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
-
-class FirstJUnit5Tests {
+class FirstJUnit5Test {
 
   @BeforeAll
   static void initAll() {

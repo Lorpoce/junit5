@@ -1,12 +1,12 @@
 package fr.xebia.xke.junit5;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
 
-import org.junit.jupiter.api.Test;
-
-public class AssumptionsDemoTests {
+public class AssumptionsTest {
 
   @Test
   void testOnlyOnCiServer() {
@@ -25,7 +25,7 @@ public class AssumptionsDemoTests {
   void testInAllEnvironments() {
     assumingThat("CI".equals(System.getenv("ENV")), () -> {
       // perform these assertions only on the CI server
-      assertEquals(2, 2);
+      assertEquals(2, 3);
     });
 
     // perform these assertions in all environments

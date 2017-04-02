@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 @Tag("fast")
 @Tag("acceptance")
 @Tag("model")
-class TaggingDemoTests {
+class TaggingTest {
 
   @Test
   @Tag("taxes")
