@@ -11,7 +11,7 @@ import java.util.Stack;
 import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("A stack")
-class NestedTest {
+class TestingAStackDemo {
 
   Stack<Object> stack;
 

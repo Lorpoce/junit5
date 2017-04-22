@@ -6,8 +6,8 @@ import org.slf4j.LoggerFactory;
 
 import static org.junit.Assert.assertEquals;
 
-public class RepeatTest {
-    private static final Logger logger = LoggerFactory.getLogger(RepeatTest.class);
+public class RepeatedTestsDemo {
+    private static final Logger logger = LoggerFactory.getLogger(RepeatedTestsDemo.class);
 
     @BeforeEach
     void beforeEach(TestInfo testInfo, RepetitionInfo repetitionInfo) {
@@ -20,7 +20,7 @@ public class RepeatTest {
 
     @RepeatedTest(10)
     void repeatedTest() {
-        // ...
+        logger.info("repeatedTest");
     }
 
     @RepeatedTest(5)

@@ -1,7 +1,7 @@
-package fr.xebia.xke.junit5.interfacedefaultmethods.impl;
+package fr.xebia.xke.junit5.testinterfaces.impl;
 
-import fr.xebia.xke.junit5.interfacedefaultmethods.FactoryEqualsTest;
-import fr.xebia.xke.junit5.interfacedefaultmethods.FactoryComparableTest;
+import fr.xebia.xke.junit5.testinterfaces.FactoryEqualsTest;
+import fr.xebia.xke.junit5.testinterfaces.FactoryComparableTest;
 
 class StringFactory implements FactoryComparableTest<String>, FactoryEqualsTest<String> {
 

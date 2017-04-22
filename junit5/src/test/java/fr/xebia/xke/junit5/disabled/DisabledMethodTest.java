@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 
 class DisabledMethodTest {
 
-  @Disabled
   @Test
+  @Disabled
   void testWillBeSkipped() {
   }
 

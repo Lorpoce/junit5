@@ -1,4 +1,4 @@
-package fr.xebia.xke.junit5.interfacedefaultmethods;
+package fr.xebia.xke.junit5.testinterfaces;
 
 import fr.xebia.xke.junit5.factory.Factory;
 import org.junit.jupiter.api.Test;
